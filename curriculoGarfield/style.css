@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 235, 215);
+}
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    display:flex;
+}
+
+.esquerda {
+    flex: 1;
+}
+.direita {
+    flex: 1;
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+    background-color: hsl(39, 98%, 50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 10px 0 10px 10%;
+    background-color: #FCC302;
+}
+
+.lista {
+    padding: 5px 0 10px 20%;
+}
+
+.pes h1 {
+    padding: 10px;
+    background-color: hsl(39, 98%, 50%);
+    font-size:15px;
+    text-align: center;
+}
